@@ -1,0 +1,24 @@
+{
+    "type": "LogicBlock",
+    "range": 688,
+    "instructionsPerTick": 235,
+    "size": 4,
+    "health": 610,
+    "name": "Big Plastanium Processor",
+    "liquidCapacity": 30,
+    "category": "logic",
+  "consumes": {
+	"liquid": {
+	"liquid": "cryofluid",
+	"amount": 0.5,	
+	}
+  },
+	"requirements": [
+	{ "item": "plastanium", "amount": 270},
+	{ "item": "thorium", "amount": 210 },
+	{ "item": "silicon", "amount": 250 },
+	{ "item": "phase-fabric", "amount": 280 },
+  { "item": "surge-alloy", "amount": 160 },
+	],
+    "description": "Improved plastanium processor"
+}

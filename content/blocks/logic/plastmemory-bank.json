@@ -1,0 +1,16 @@
+{
+ "type": "MemoryBlock",
+ "memoryCapacity": 4096,
+ "size": 2,
+ "health": 280,
+ "name": "Plastanium Memory Block",
+ "category": "logic",
+ "description": "Holds 4096 cells"
+"requirements": [
+	{ "item": "plastanium", "amount": 120},
+	{ "item": "thorium", "amount": 30 },
+	{ "item": "graphite", "amount": 160}
+	{ "item": "silicon", "amount": 150 },
+	{ "item": "phase-fabric", "amount": 60 }
+	],
+}

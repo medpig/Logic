@@ -1,0 +1,24 @@
+{
+    "type": "LogicBlock",
+    "range": 512,
+    "instructionsPerTick": 78.3333333333,
+    "size": 3,
+    "health": 440,
+    "name": "Plastanium Processor",
+    "liquidCapacity": 20,
+    "category": "logic",
+  "consumes": {
+	"liquid": {
+	"liquid": "cryofluid",
+	"amount": 0.2,	
+	}
+  },
+	"requirements": [
+	{ "item": "plastanium", "amount": 120},
+	{ "item": "thorium", "amount": 100 },
+	{ "item": "silicon", "amount": 200 },
+	{ "item": "phase-fabric", "amount": 75 }
+	{ "item": "surge-alloy", "amount": 100 },
+	],
+    "description": "faster than default processors"
+}

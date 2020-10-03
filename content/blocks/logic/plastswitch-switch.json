@@ -1,0 +1,13 @@
+{
+    "type": "SwitchBlock",
+    "size": 2,
+    "health": 140,
+    "name": "Plastanium Switch",
+    "liquidCapacity": 30,
+    "category": "logic",
+	"requirements": [
+	{ "item": "plastanium", "amount": 10},
+	{ "item": "silicon", "amount": 20 },
+	],
+    "description": "Big switch"
+}

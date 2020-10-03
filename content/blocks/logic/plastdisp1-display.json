@@ -1,0 +1,14 @@
+{
+ "type": "logicDisplay",
+ "displaySize": 24,
+ "size": 1,
+ "health": 90,
+ "name": "Micro Plastanium Display",
+ "category": "logic",
+ "description": "24 pixel",
+ "requirements": [
+	{ "item": "plastanium", "amount": 10},
+	{ "item": "metaglass", "amount": 15 },
+	{ "item": "silicon", "amount": 20 }
+	]
+}
