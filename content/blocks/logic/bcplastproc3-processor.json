@@ -1,0 +1,24 @@
+{
+    "type": "LogicBlock",
+    "range": 688,
+    "instructionsPerTick": 733.333333333,
+    "size": 5,
+    "health": 900,
+    "name": "Plastanium Processor Lvl 3",
+    "liquidCapacity": 30,
+    "category": "logic",
+  "consumes": {
+	"liquid": {
+	"liquid": "cryofluid",
+	"amount": 0.7,	
+	}
+  },
+	"requirements": [
+	{ "item": "plastanium", "amount": 420},
+	{ "item": "thorium", "amount": 390 },
+	{ "item": "silicon", "amount": 550 },
+	{ "item": "phase-fabric", "amount": 420 },
+  { "item": "surge-alloy", "amount": 290 },
+	],
+    "description": "Plastanium processor level 3"
+}

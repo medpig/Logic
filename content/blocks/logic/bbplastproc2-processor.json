@@ -4,7 +4,7 @@
     "instructionsPerTick": 235,
     "size": 4,
     "health": 610,
-    "name": "Big Plastanium Processor",
+    "name": "Plastanium Processor Lvl 2",
     "liquidCapacity": 30,
     "category": "logic",
   "consumes": {
@@ -20,5 +20,5 @@
 	{ "item": "phase-fabric", "amount": 280 },
   { "item": "surge-alloy", "amount": 160 },
 	],
-    "description": "Improved plastanium processor"
+    "description": "Plastanium processor level 2"
 }
