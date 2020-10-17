@@ -1,0 +1,26 @@
+name:"Strained Glass Factory"
+description:"The glass is tempered to 1112 °F, then it is rapidly cooled"
+outputItem:StrainedGlass/1
+size:3
+hasPower:true
+hasItems:true
+craftTime:80
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:4
+items:{items:[
+metaglass/1
+]},
+liquid: {
+liquid: cryofluid
+amount: 0.05
+}}
+requirements:[
+lead/30
+silicon/90
+graphite/55
+metaglass/40
+]
+category:crafting
+research:router

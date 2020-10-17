@@ -19,6 +19,7 @@
 	{ "item": "silicon", "amount": 250 },
 	{ "item": "phase-fabric", "amount": 280 },
   { "item": "surge-alloy", "amount": 160 },
+  { "item": "Graget", "amount": 280 },
 	],
     "description": "Plastanium processor level 2"
 }

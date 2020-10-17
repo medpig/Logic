@@ -2,13 +2,13 @@
  "type": "logicDisplay",
  "displaySize": 272,
  "size": 9,
- "health": 370,
+ "health": 440,
  "name": "Plastanium Display 9",
  "category": "logic",
  "description": "272 pixel",
  "requirements": [
 	{ "item": "plastanium", "amount": 50},
-	{ "item": "metaglass", "amount": 200 },
+	{ "item": "StrainedGlass", "amount": 200 },
 	{ "item": "silicon", "amount": 200 },
 	{ "item": "phase-fabric", "amount": 100}
 	],

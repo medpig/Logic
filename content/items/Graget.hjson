@@ -1,0 +1,8 @@
+type:material
+name: "Graget"
+description: "Compound of graphite and kinetic alloy"
+color: "#6B77A1"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 7

@@ -17,8 +17,10 @@
 	{ "item": "plastanium", "amount": 120},
 	{ "item": "thorium", "amount": 100 },
 	{ "item": "silicon", "amount": 200 },
-	{ "item": "phase-fabric", "amount": 75 }
+	{ "item": "phase-fabric", "amount": 75 },
 	{ "item": "surge-alloy", "amount": 100 },
+  { "item": "Graget", "amount": 150 },
+
 	],
     "description": "faster than default processors"
 }
