@@ -1,0 +1,84 @@
+type: LegsUnit
+name: Aquila
+drag: 0.1
+speed: 0.7
+hitsize: 24
+health: 1680
+armor: 14
+rotateSpeed: 1.9
+legCount: 6
+mirror: false
+legMoveSpace: 1.5
+legPairOffset: 1
+legLength: 24
+legExtension: 0
+legBaseOffset: 6
+landShake: 0.4
+legSpeed: 0.19
+legLengthScl: 0.92
+rippleScale: 3
+legSplashDamage: 40
+legSplashRange: 16
+hovering: true
+allowLegStep: true
+visualElevation: 0.9
+weapons: [
+{
+  name: Swift-weapon
+  x: 0
+  y: 0
+  shootY: 15
+  mirror: false
+  reload: 180
+  shake: 10
+  range: 160
+  recoil: 5
+  rotateSpeed: 1
+  ejectEffect: shellEjectBig
+  shootSound: shootBig
+  rotate: false
+  occlusion: 30
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 4
+    damage: 350
+    hitEffect: smelt
+    knockback: 0.9
+    lifetime: 50
+    width: 15
+    height: 15
+    collides: true
+    collidesTiles: true
+    ammoMultiplier: 1
+    splashDamageRadius: 80
+    splashDamage: 100
+    backColor: 8290bf
+    frontColor: 8290bf
+    smokeEffect: shootBigSmoke2
+    hitShake: 10
+    status: sapped
+    statusDuration: 10
+    fragLifeMin: 0.3
+    fragBullets: 2
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 3.3
+      damage: 100
+      hitEffect: shootLiquid
+      knockback: 0.8
+      lifetime: 15
+      width: 5
+      height: 5
+      collidesTiles: true
+      splashDamageRadius: 24
+      splashDamage: 50
+      backColor: 8290bf
+      frontColor: 8290bf
+      smokeEffect: shootBigSmoke2
+      hitShake: 1
+      status: sapped
+      statusDuration: 1
+    }
+  }
+}
+]

@@ -1,5 +1,5 @@
 type:GenericSmelter
-name:"Graget"
+name:"Graget Factory"
 description:"Connects graphite and surge-alloy"
 outputItem:Graget/2
 size:3
@@ -13,10 +13,13 @@ power:0.8
 items:{items:[
 graphite/4
 surge-alloy/1
+silicon/2
 ]}}
 requirements:[
-copper/30
-lead/25
+silicon/65
+lead/90
+graphite/85
+surge-alloy/40
 ]
 category:crafting
 research:router

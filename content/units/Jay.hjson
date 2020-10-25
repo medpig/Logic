@@ -1,0 +1,38 @@
+name: Jay
+ description: ""
+ speed: 0.5
+type: mechUnit
+  maxVelocity: 1
+ flying: false
+ health: 860
+ range: 96
+ rotateSpeed: 5
+ mass: 3.0
+ targetAir: true
+weapons: [
+{
+  name: Jay-weapon
+  x: -6
+  y: 0
+  shootY: 9
+  shootX: 0
+  reload: 40
+  ejectEffect: none
+  recoil: 1
+  rotate: true
+  shootSound: flame
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.5
+    length: 96
+    damage: 50
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.7
+    lifetime: 35
+    knockback: 1
+  }
+}
+]

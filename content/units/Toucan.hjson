@@ -1,0 +1,32 @@
+name: Toucan
+ description: ""
+ speed: 0.6
+type: mechUnit
+  maxVelocity: 1
+ flying: false
+ health: 670
+ range: 120
+ rotateSpeed: 10
+ mass: 3.0
+ targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 5
+  y: 0
+  mirror: true
+  name: Toucan-weapon
+  reload: 40
+  rotate: false
+  spacing: 0
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+   width: 4
+  height: 5
+  shrinkY: 0
+  speed: 3
+  keepVelocity: false
+  damage: 30
+  lifetime: 60
+}}]
