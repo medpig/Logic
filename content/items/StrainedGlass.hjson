@@ -1,6 +1,5 @@
-type:material
-name: "Toughened Glass"
-description: "Toughened Glass \n The glass is heated to 1112 °F, then cools rapidly and relieves internal stress."
+name: "Strained Glass"
+description: "Strained Glass \n The glass is heated to 1112 °F, then cools rapidly and relieves internal stress."
 color: "#b6cce9"
 radioactivity: 0.0
 explosiveness:0.0

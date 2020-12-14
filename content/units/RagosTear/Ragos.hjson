@@ -1,0 +1,45 @@
+name: "Ragos"
+type: flying
+health: 700
+speed: 1.7
+accel: 0.04
+drag: 0.016
+flying: true
+range: 140
+hitSize: 20f
+lowAltitude : true
+armor: 5
+engineOffset: 12
+engineSize: 3
+mineTier: 4
+mineSpeed: 3.5
+weapons: [
+{
+  name: Ragos-weapon
+  x: 0
+  y: 0
+  shootY: 10
+  shootX: 0
+  reload: 50
+  ejectEffect: none
+  mirror: false
+  recoil: 1
+  rotate: false
+  shootSound: flame
+  shootStatus: unmoving
+  shootStatusDuration: 0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.2
+    length: 96
+    damage: 70
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.5
+    lifetime: 50
+    knockback: 1
+  }
+}
+]

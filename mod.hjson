@@ -2,6 +2,6 @@ displayName:"Logic"
 name:"logic"
 description:"[#9CB664]Improved logic blocks"
 author:"medpig"
-version: 1.4.2
+version: 1.5.0
 dependencies:[]
 minGameVersion: 105

@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Test Wall"
+size: 1
+variants: 1

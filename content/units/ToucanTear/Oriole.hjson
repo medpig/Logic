@@ -1,16 +1,15 @@
-type: LegsUnit
-name: Aquila
-drag: .2
+type: mech
+name: Oriole
+drag: 0.2
 speed: 0.7
-hitsize: 24
+hitSize: 24
 health: 2610
 armor: 26
 rotateSpeed: 1.9
 legCount: 6
-mirror: false
 legMoveSpace: 1.5
 legPairOffset: 1
-legLength: 24
+legLength: 40
 legExtension: 0
 legBaseOffset: 6
 landShake: 0.2
@@ -24,7 +23,7 @@ allowLegStep: true
 visualElevation: 0.9
 weapons: [
 {
-  name: Swift-weapon
+  name: Oriole-weapon
   x: 0
   y: 0
   shootY: 15
@@ -34,7 +33,7 @@ weapons: [
   range: 160
   recoil: 5
   rotateSpeed: 1
-  ejectEffect: shellEjectBig
+  ejectEffect: casing2
   shootSound: shootBig
   rotate: false
   occlusion: 30
@@ -43,10 +42,10 @@ weapons: [
     speed: 4
     damage: 750
     hitEffect: smelt
-    knockback: 0.9
-    lifetime: 120
-    width: 35
-    height: 35
+    knockback: 1.3
+    lifetime: 80
+    width: 25
+    height: 25
     collides: true
     collidesTiles: true
     ammoMultiplier: 1
@@ -63,12 +62,12 @@ weapons: [
     fragBullet: {
       type: ArtilleryBulletType
       speed: 3.3
-      damage: 100
+      damage: 150
       hitEffect: shootLiquid
       knockback: 0.8
       lifetime: 15
-      width: 5
-      height: 5
+      width: 8
+      height: 8
       collidesTiles: true
       splashDamageRadius: 80
       splashDamage: 400

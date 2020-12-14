@@ -1,13 +1,11 @@
 name: Jay
  description: ""
  speed: 0.5
-type: mechUnit
-  maxVelocity: 1
+type: mech
  flying: false
  health: 860
  range: 96
  rotateSpeed: 5
- mass: 3.0
  targetAir: true
 weapons: [
 {

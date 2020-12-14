@@ -1,0 +1,37 @@
+type: naval
+name: Marinet
+hitSize: 24
+speed: 3.2
+drag: 0.13
+hitSize: 24
+health: 670
+accel: 0.05
+rotateSpeed: 2
+trailLength: 10
+trailX: 5.5
+trailY: -4
+trailScl: 1.9
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: -8
+  shootY: 22
+  mirror: false
+  name: Marinet-weapon
+  reload: 50
+  rotate: true
+  spacing: 180
+  inaccuracy: 0
+  recoil: 1.0
+  bullet: {
+  type: missileBulletType
+  width: 11
+  height: 11
+  speed: 3
+  keepVelocity: true
+  damage: 120
+  lifetime: 130
+  trailColor: 989aa4
+}}
+]

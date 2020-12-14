@@ -1,0 +1,38 @@
+type: naval
+name: Mary
+hitSize: 24
+speed: 3.2
+drag: 0.13
+hitSize: 24
+health: 670
+accel: 0.05
+rotateSpeed: 3
+trailLength: 10
+trailX: 5.5
+trailY: -4
+trailScl: 1.9
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: -5
+  shootY: 12
+  mirror: false
+  name: Mary-weapon
+  reload: 40
+  rotate: true
+  spacing: 180
+  inaccuracy: 0
+  recoil: 0.6
+  bullet: {
+  type: missileBulletType
+  width: 7
+  height: 7
+  speed: 3
+  keepVelocity: true
+  damage: 110
+  lifetime: 120
+  trailColor: 989aa4
+  homingRange: 0
+}}
+]

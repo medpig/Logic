@@ -1,12 +1,13 @@
 type:GenericSmelter
 name:"Graget Factory"
 description:"Connects graphite and surge-alloy"
-outputItem:Graget/2
-size:3
+outputItem: Graget/2
+size: 3
 hasPower:true
 hasItems:true
 craftTime:80
 updateEffect:steam
+ambientSound: bubble
 itemCapacity:12
 consumes:{
 power:0.8

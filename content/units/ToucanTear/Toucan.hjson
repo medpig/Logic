@@ -1,13 +1,11 @@
 name: Toucan
  description: ""
  speed: 0.6
-type: mechUnit
-  maxVelocity: 1
+type: mech
  flying: false
  health: 670
  range: 120
  rotateSpeed: 10
- mass: 3.0
  targetAir: true
 weapons:[
 {
@@ -16,7 +14,7 @@ weapons:[
   y: 0
   mirror: true
   name: Toucan-weapon
-  reload: 40
+  reload: 20
   rotate: false
   spacing: 0
   inaccuracy :0

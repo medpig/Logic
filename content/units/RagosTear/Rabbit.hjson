@@ -1,0 +1,73 @@
+name: "Rabbit"
+type: flying
+health: 1100
+speed: 1.6
+accel: 0.04
+drag: 0.016
+flying: true
+range: 140
+hitSize: 20f
+lowAltitude : true
+armor: 5
+engineOffset: 20
+engineSize: 5
+mineTier: 5
+mineSpeed: 3.5
+weapons: [
+{
+  name: Rabbit-weapon
+  x: 0
+  y: 0
+  shootY: 15
+  shootX: 0
+  reload: 90
+  ejectEffect: none
+  mirror: false
+  recoil: 1
+  rotate: false
+  shootSound: flame
+  shootStatus: unmoving
+  shootStatusDuration: 0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.2
+    length: 128
+    damage: 150
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.9
+    lifetime: 80
+    knockback: 1
+  }
+}
+{
+  name: Rabbit-weapon2
+  x: 8
+  y: 0
+  shootY: 7
+  shootX: 1
+  reload: 50
+  ejectEffect: none
+  mirror: true
+  recoil: 0.5
+  rotate: true
+  shootSound: flame
+  shootStatus: unmoving
+  shootStatusDuration: 0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.2
+    length: 96
+    damage: 50
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.5
+    lifetime: 60
+    knockback: 1
+  }
+}
+]

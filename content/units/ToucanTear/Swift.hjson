@@ -1,13 +1,12 @@
-type: LegsUnit
-name: Aquila
+type: mech
+name: Swift
 drag: 0.1
 speed: 0.7
-hitsize: 24
+hitSize: 24
 health: 1680
 armor: 14
 rotateSpeed: 1.9
 legCount: 6
-mirror: false
 legMoveSpace: 1.5
 legPairOffset: 1
 legLength: 24
@@ -31,10 +30,9 @@ weapons: [
   mirror: false
   reload: 180
   shake: 10
-  range: 160
   recoil: 5
   rotateSpeed: 1
-  ejectEffect: shellEjectBig
+  ejectEffect: casing2
   shootSound: shootBig
   rotate: false
   occlusion: 30

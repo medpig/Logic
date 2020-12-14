@@ -1,6 +1,6 @@
 name:"Strained Glass Factory"
 description:"The glass is tempered to 1112 °F, then it is rapidly cooled"
-outputItem:StrainedGlass/1
+outputItem: StrainedGlass/1
 size:3
 hasPower:true
 hasItems:true

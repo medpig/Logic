@@ -1,0 +1,53 @@
+name: "Cuckoo"
+type: flying
+health: 1570
+speed: 4.2
+drag: 0.016
+accel: 0.01
+rotateSpeed: 4
+flying: true
+range: 140
+hitSize: 20f
+lowAltitude : true
+armor: 5
+engineOffset: 20
+engineSize: 5
+mineTier: 5
+mineSpeed: 3.5
+weapons: [
+{
+  name: Cuckoo-weapon
+  x: 0
+  y: -5
+  shootY: 7
+  reload: 310
+  ejectEffect: none
+  recoil: 2.7
+  shootStatus: unmoving
+  shootStatusDuration: 150
+  shootSound: laser
+  firstShotDelay: 4
+  mirror: false
+  cooldownTime: 280
+  bullet: {
+    type: LaserBulletType
+    length: 240
+    damage: 320
+    width: 20
+    lifetime: 75
+    lightningSpacing: 35f
+    lightningLength: 2
+    lightningDelay: 1.1f
+    lightningLengthRand: 15
+    lightningDamage: 50
+    lightningAngleRand: 40f
+    largeHit: true
+    shootEffect: spawn
+    healPercent: 35
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [ffffff, ffffbd, df904a]
+  }
+}]

@@ -1,0 +1,6 @@
+name: "Spawn Unit"
+alwaysUnlocked:true
+category:effect
+requirements:[
+Graget/0
+]

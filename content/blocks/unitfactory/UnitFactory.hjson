@@ -1,0 +1,43 @@
+name: Unit Factory
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: Toucan
+    requirements: [
+      silicon/60
+      graphite/45
+      Graget/30
+    ] 
+    time: 360
+  }
+  {
+    unit: Betty
+    requirements: [
+      silicon/50
+      metaglass/55
+      Graget/35
+    ] 
+    time: 360
+  }
+    {
+    unit: Ragos
+    requirements: [
+      silicon/90
+      metaglass/75
+      Graget/45
+    ] 
+    time: 360
+  }
+]
+requirements: [
+  copper/50
+  lead/140
+  silicon/70
+  plastanium/60
+]
+category: units
+research: ground-factory
